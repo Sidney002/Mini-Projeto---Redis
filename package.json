@@ -1,0 +1,28 @@
+{
+  "name": "mini-projeto---redis",
+  "version": "1.0.0",
+  "description": "miniprojeto usando o redis e postgreSQL para armazenar o crud e mensagem de um blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sidney002/Mini-Projeto---Redis.git"
+  },
+  "author": "Sidney",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "2.0.9",
+    "pg": "^8.6.0",
+    "redi": "0.1.0",
+    "redis": "^3.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Sidney002/Mini-Projeto---Redis/issues"
+  },
+  "homepage": "https://github.com/Sidney002/Mini-Projeto---Redis#readme"
+}
