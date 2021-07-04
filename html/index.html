@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Projeto - Redis</title>
+</head>
+<body>
+    <div class="insert">
+        <form name="formInsert" action="controllerForm" method="post">
+            <input type="text" name="name" id="name" placeholder="write your name">
+            <input type="email" name="email" id="email" placeholder="insert your user email">
+            <input type="submit" name="btnSubmit" id="btnSubmit" value="cadastrar">
+        </form>
+    </div>
+   <div class="select">
+    <table id="user-list">
+        <tr class="first">
+            <td>Nome</td>
+            <td>Email</td>
+            <td>rascunho</td>
+        </tr>
+    
+        {{#data}}
+    
+        <tr>
+            <td>{{nome}}</td>
+            <td>{{email}}</td>
+            <td>{{aux}}</td>
+        </tr>
+    
+        {{/data}}
+    
+    </table>
+   </div>
+   <div class="verpost">
+    <table id="user-list">
+
+        <form action="http://localhost:3000" id="getkey" method="post" name="getkey">
+            <input type="email" name="email" id="gmail" placeholder="insert your user email">
+            <input type="submit" name="btnSubmit" id="btnSubmit" value="buscar">
+        </form>
+    
+        <tr class="first">
+            <td>Email</td>
+            <td>rascunho</td>
+        </tr>
+    
+        <tr id="rowpost">
+            
+        </tr>
+    </table>
+   </div>
+
+    <script src="/./js/javascript.js"></script>
+</body>
+</html>

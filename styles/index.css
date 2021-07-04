@@ -1,0 +1,12 @@
+h1,h2,h3{text-align:center; color: darkred;}
+    table { width: 60%;  margin: 70px auto; border: 1px solid #333; border-radius: 15px}
+    table th { with: 25%;}
+    table td {border-left: 1px solid #333; padding: 15px}
+    table .first{ background: #333; color: #fff; font-weight: bold; padding: 55px;}
+    form {border: 1px solid #333; padding: 20px; width: 60%; margin: 20px auto; border-radius: 15px}
+    form input{padding: 5px; border-radius: 15px; margin-left: 60px;}
+    form textarea{width: 400px; margin: 10px 23%; border-radius: 15px}
+    form #postSubmit{margin: 10px 45%}
+    ul{width: 60%; margin: 0px auto; background: #333; border-radius: 15px; display: flex;}
+    ul li{flex-wrap: wrap; padding: 15px; list-style: none; margin: 0 auto}
+    ul a{color: #333; border: 1px solid #ddd; padding: 5px; background: #aaa; border-radius: 15px; text-decoration: none}
